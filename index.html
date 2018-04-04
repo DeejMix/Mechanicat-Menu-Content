@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Mechanicat Menu Screen</title>
+  <title>Mechanicat Difficulty Screen</title>
   
   
   
@@ -15,33 +15,140 @@
 <body>
 
   <head>
-</head>
-<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-left: 2px dashed black;
+      border-right: 2px dashed black;
+    }
 
+    .tooltiptext {
+      visibility: hidden;
+      width: 260px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 12px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .tooltip2 {
+      position: relative;
+      display: inline-block;
+      border-left: 2px dashed black;
+      border-right: 2px dashed black;
+      border-top: 2px dashed black;
+      border-bottom: 5px solid black;
+      border-radius: 5px;
+    
+    }
+
+    .tooltiptext2 {
+      visibility: hidden;
+      width: 260px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      padding: 5px 0;
+      border-radius: 12px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .tooltip2:hover .tooltiptext2 {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Audiowide|Orbitron|Rock+Salt" rel="stylesheet">
+
+</head>
 
 <body>
-  <h1 class="title">Mechanicat</h1>
+  <h1 class="title">Select Difficulty</h1>
   <br />
   <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-   <a class="play">Play</a>
-  <br />
-  <br />
-  <br />
-  <a class="options">Options</a>
-  <br />
-  <br />
-  <br />
-  <a class="quit">Quit</a>
-  
+    <br />
+    <br />
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <a class="easy">Easy Mode</a>
+        </div>
+        <div class="col-sm-4">
+          <p class="normal">Normal Mode</p>
+        </div>
+        <div class="col-sm-4">
+          <p class="hard">Hard Mode</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="tooltip">Info
+          <span class="tooltiptext">Recommended for beginners, Easy Mode is a fairly easy play experience. Enemies pack less of a punch, you pack more and can take more damage, and bosses have less health. All for the better!</span>
+        </div>
+      </div>
+
+      <div class="col-sm-4">
+        <div class="tooltip">Info
+          <span class="tooltiptext">The average play mode. Enemies have normal HP and you do normal damage and have normal defense. Have fun!</span>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="tooltip"> Info
+          <span class="tooltiptext">For the experienced player. Enemy damage and defense raised to 150%, player health, damage, and defense lowered to 75%. Good luck, and keep your head in the game!</span>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="tooltip">
+      Info
+    </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <a class="pain">PAIN</a>
+        </div>
+        <div class="col-sm-6">
+          <div class="tooltip2">Info
+            <span class="tooltiptext2">Go away. Don't you have anything better to do?</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <br />
+    <br />
+  </div>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
 </body>
   
   
+
+    <script  src="js/index.js"></script>
+
+
+
 
 </body>
 
