@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(225deg, yellow, orange, red)
+}
+
+.title {
+  font-size: 85px;
+  background-color: linear-gradient(45deg, red, orange, yellow);
+  font-family: "Audiowide";
+  text-align: center;
+  padding: 30px;
+  border-bottom: 10px solid black;
+  border-top: 10px dashed black;
+ border-left: 10px dashed black;
+  border-right: 10px dashed black;
+    padding-bottom: 30px;
+  padding-right: 1px;
+  padding-left: 1px;
+  border-radius: 100px
+}
+
+.play {
+  font-weight: bold;
+  font-family: "Orbitron";
+  font-size: 50px;
+  background-color: rgba(255, 120, 0, 1);
+  border: 4px outset black;
+  border-radius: 10px;
+  padding: 10px
+}
+.play:hover {
+  background: #BE5F01;
+  border-color: 
+}
+.options {
+  font-weight: bold;
+  font-family: "Orbitron";
+  font-size: 50px;
+  background-color: rgba(255, 120, 0, 1);
+  border: 4px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+.options:hover {
+  background: #BE5F01;
+}
+.quit {
+   font-weight: bold;
+  font-family: "Orbitron";
+  font-size: 50px;
+  background-color: rgba(255, 120, 0, 1);
+  border: 4px solid black;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  padding: 10px;
+  padding-bottom: 5px;
+}
+.quit:hover {
+  background: #BE5F01;
+}
